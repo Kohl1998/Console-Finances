@@ -87,7 +87,11 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-// Total number of months in dataset 
+// Total number of months in dataset
+
+console.log(finances.length)
+
+var totalmonths = 85 
 
 // Total amount of profit & losses
 
