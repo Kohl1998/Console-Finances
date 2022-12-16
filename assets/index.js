@@ -95,6 +95,16 @@ var totalmonths = 85
 
 // Total amount of profit & losses
 
+for (var i = 0; i < finances.length; i++) {
+  finances[i][1]
+  console.log(finances[i][1])
+}
+
+var total = (finances[i][1] + finances[i][1])
+console.log(total)
+
+
+
 // Average change over time 
 
 // Greatest increase in profits with date & amount
