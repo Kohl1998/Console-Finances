@@ -86,3 +86,27 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+// Total number of months in dataset 
+
+// Total amount of profit & losses
+
+// Average change over time 
+
+// Greatest increase in profits with date & amount
+
+// Greatest decrease in losses with date & amount
+
+/*  ```text
+  Financial Analysis
+  ----------------------------
+  Total Months: 25
+  Total: $2561231
+  Average  Change: $-2315.12
+  Greatest Increase in Profits: Feb-2012 ($1926159)
+  Greatest Decrease in Profits: Sep-2013 ($-2196167)
+  ``` */ 
+
+  // Use concatenation when console logging info
+
+  // Print to the nearest 100th 
