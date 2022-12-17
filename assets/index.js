@@ -23,10 +23,10 @@ var finances = [
 ['Oct-2011', 834719],
 ['Nov-2011', 132003],
 ['Dec-2011', 309978],
-['Jan-2012', -755566],
-['Feb-2012', 1170593],
-['Mar-2012', 252788],
-['Apr-2012', 1151518],
+['Jan-2012', -755566], // [24][1]
+['Feb-2012', 1170593], // [25][1]
+['Mar-2012', 252788], // [26][1]
+['Apr-2012', 1151518], // [27][1]
 ['May-2012', 817256],
 ['Jun-2012', 570757],
 ['Jul-2012', 506702],
@@ -45,8 +45,8 @@ var finances = [
 ['Aug-2013', 999942],
 ['Sep-2013', -1196225],
 ['Oct-2013', 268997],
-['Nov-2013', -687986],
-['Dec-2013', 1150461],
+['Nov-2013', -687986], // [46][1]
+['Dec-2013', 1150461],  // [47][1]
 ['Jan-2014', 682458],
 ['Feb-2014', 617856],
 ['Mar-2014', 824098],
@@ -62,8 +62,8 @@ var finances = [
 ['Jan-2015', 1139715],
 ['Feb-2015', 1029471],
 ['Mar-2015', 687533],
-['Apr-2015', -524626],
-['May-2015', 158620],
+['Apr-2015', -524626], // [63][1]
+['May-2015', 158620], // [64][1]
 ['Jun-2015', 87795],
 ['Jul-2015', 423389],
 ['Aug-2015', 840723],
@@ -80,11 +80,11 @@ var finances = [
 ['Jul-2016', -1163797],
 ['Aug-2016', 569899],
 ['Sep-2016', 768450],
-['Oct-2016', 102685],
-['Nov-2016', 795914],
+['Oct-2016', 102685], // [81][1]
+['Nov-2016', 795914], // [82][1]
 ['Dec-2016', 60988],
-['Jan-2017', 138230],
-['Feb-2017', 671099]
+['Jan-2017', 138230], // [84][1]
+['Feb-2017', 671099] // [85][1]
 ];
 
 // Total number of months in dataset 
@@ -120,15 +120,35 @@ console.log("The average is " + average)
 
 // Greatest increase in profits with date & amount
 
-var AprMay = finances[4][1] + finances[3][1];
-console.log('Apr/May 2010 = ' + AprMay) // $241,086
+var AprMay10 = finances[4][1] + finances[3][1];
+console.log('Apr/May 2010 = ' + AprMay10) // $241,086
 
-var JunJul = finances[6][1] - finances[5][1]; 
-console.log('JunJul 2010 = ' + JunJul); // $510,239
+var JunJul10 = finances[6][1] - finances[5][1]; 
+console.log('JunJul 2010 = ' + JunJul10); // $510,239
 
-var DecJan = finances[12][1] + finances[11][1];
-console.log('Dec/Jan 2010 = ' + DecJan) // $699,453
+var DecJan10 = finances[12][1] + finances[11][1];
+console.log('Dec/Jan 2010 = ' + DecJan10) // $699,453
 
+var JulAug11 = finances[19][1] - finances[18][1];
+console.log('JulAug 2011 = ' + JulAug11) // $605,450
+
+var JanFeb12 = finances[24][1] + finances[25][1];
+console.log('Jan/Feb 2012 = ' + JanFeb12) // $415,027
+
+var MarApr12 = finances[27][1] - finances[26][1];
+console.log('Mar/Apr 2012 = ' + MarApr12) // $898,730
+
+var NovDec13 = finances[47][1] + finances[46][1];
+console.log('Nov/Dec 2013 = ' + NovDec13) // $462,475
+
+var AprMay15 = finances[64][1] + finances[63][1];
+console.log('Apr/May 2015 = ' + AprMay15) // $366,006
+
+var OctNov16 = finances[82][1] - finances[81][1];
+console.log('Oct/Nov 2016  = ' + OctNov16) // $693,229
+
+var JanFeb17 = finances[85][1] - finances[84][1];
+console.log('Jan/Feb 2017  = ' + JanFeb17) // $532,869
 
 
 
