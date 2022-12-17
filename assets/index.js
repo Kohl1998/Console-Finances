@@ -1,24 +1,24 @@
 var finances = [
 ['Jan-2010', 867884],
-['Feb-2010', 984655],
-['Mar-2010', 322013],
-['Apr-2010', -69417],
-['May-2010', 310503],
-['Jun-2010', 522857],
-['Jul-2010', 1033096],
+['Feb-2010', 984655], 
+['Mar-2010', 322013], 
+['Apr-2010', -69417], // [3][1]
+['May-2010', 310503], // [4][1] 
+['Jun-2010', 522857], // [5][1]
+['Jul-2010', 1033096], //[6][1]
 ['Aug-2010', 604885],
 ['Sep-2010', -216386],
 ['Oct-2010', 477532],
 ['Nov-2010', 893810],
-['Dec-2010', -80353],
-['Jan-2011', 779806],
+['Dec-2010', -80353], // [11][1]
+['Jan-2011', 779806], // [12][1]
 ['Feb-2011', -335203],
 ['Mar-2011', 697845],
 ['Apr-2011', 793163],
 ['May-2011', 485070],
 ['Jun-2011', 584122],
-['Jul-2011', 62729],
-['Aug-2011', 668179],
+['Jul-2011', 62729], // [18][1]
+['Aug-2011', 668179], // [19][1]
 ['Sep-2011', 899906],
 ['Oct-2011', 834719],
 ['Nov-2011', 132003],
@@ -87,7 +87,7 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-// Total number of months in dataset
+// Total number of months in dataset 
 
 var totalmonths = finances.length - 1 
 console.log(totalmonths) 
@@ -119,6 +119,18 @@ var average = total/totalmonths
 console.log("The average is " + average)
 
 // Greatest increase in profits with date & amount
+
+var AprMay = finances[4][1] + finances[3][1];
+console.log('Apr/May 2010 = ' + AprMay) // $241,086
+
+var JunJul = finances[6][1] - finances[5][1]; 
+console.log('JunJul 2010 = ' + JunJul); // $510,239
+
+var DecJan = finances[12][1] + finances[11][1];
+console.log('Dec/Jan 2010 = ' + DecJan) // $699,453
+
+
+
 
 // Greatest decrease in losses with date & amount
 
