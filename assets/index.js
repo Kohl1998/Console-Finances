@@ -150,7 +150,8 @@ console.log('Oct/Nov 2016  = ' + OctNov16) // $693,229
 var JanFeb17 = finances[85][1] - finances[84][1];
 console.log('Jan/Feb 2017  = ' + JanFeb17) // $532,869
 
-
+var totalProfit = MarApr12 
+console.log("March/April 2012 = " + "$" + MarApr12 + " making it the most profitable month for the company!")
 
 // Greatest decrease in losses with date & amount
 
