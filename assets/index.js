@@ -89,9 +89,8 @@ var finances = [
 
 // Total number of months in dataset
 
-console.log(finances.length)
-
-var totalmonths = 85 
+var totalmonths = finances.length - 1 
+console.log(totalmonths) 
 
 // Total amount of profit & losses
 
