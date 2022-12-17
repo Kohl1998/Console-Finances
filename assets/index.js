@@ -96,12 +96,12 @@ var totalmonths = 85
 // Total amount of profit & losses
 
 // logs values for each month
-for (var i = 0; i < finances.length; i++) {
+/* for (var i = 0; i < finances.length; i++) {
   finances[i][1] 
   console.log(finances[i][1])
-}
+} */
 
-var total = finances[0][1]
+var total = 74638024; 
 
 // To find total between profits & losses
 var sum = 0; 
@@ -115,6 +115,9 @@ console.log("The total sum is " + sum)
 
 
 // Average change over time 
+
+var average = total/totalmonths 
+console.log("The average is " + average)
 
 // Greatest increase in profits with date & amount
 
