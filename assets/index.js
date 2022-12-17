@@ -116,7 +116,7 @@ console.log("The total sum is " + "$" + sum)
 // Average change over time 
 
 var average = total/totalmonths 
-console.log("The average in dollars is " + average)
+console.log("The average in dollars is " + "$" + average)
 
 // Greatest increase in profits with date & amount
 
@@ -148,7 +148,7 @@ console.log('Oct/Nov 2016  = ' + OctNov16) // $693,229 */
 console.log('Jan/Feb 2017  = ' + JanFeb17) // $532,869 */
 
 var MarApr12 = finances[27][1] - finances[26][1];
-console.log('Mar/Apr 2012 = ' + MarApr12) // $898,730
+console.log('Mar/Apr 2012 = ' + "$" + MarApr12) // $898,730
 
 var totalProfit = MarApr12 
 console.log("March/April 2012 = " + "$" + MarApr12 + " making it the most profitable month for the company!")
