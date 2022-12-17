@@ -120,35 +120,35 @@ console.log("The average is " + average)
 
 // Greatest increase in profits with date & amount
 
-var AprMay10 = finances[4][1] + finances[3][1];
-console.log('Apr/May 2010 = ' + AprMay10) // $241,086
+/* var AprMay10 = finances[4][1] + finances[3][1];
+console.log('Apr/May 2010 = ' + AprMay10) // $241,086 */ 
 
-var JunJul10 = finances[6][1] - finances[5][1]; 
-console.log('JunJul 2010 = ' + JunJul10); // $510,239
+/* var JunJul10 = finances[6][1] - finances[5][1]; 
+console.log('JunJul 2010 = ' + JunJul10); // $510,239 */
 
-var DecJan10 = finances[12][1] + finances[11][1];
-console.log('Dec/Jan 2010 = ' + DecJan10) // $699,453
+/* var DecJan10 = finances[12][1] + finances[11][1];
+console.log('Dec/Jan 2010 = ' + DecJan10) // $699,453 */
 
-var JulAug11 = finances[19][1] - finances[18][1];
-console.log('JulAug 2011 = ' + JulAug11) // $605,450
+/* var JulAug11 = finances[19][1] - finances[18][1];
+console.log('JulAug 2011 = ' + JulAug11) // $605,450 */
 
-var JanFeb12 = finances[24][1] + finances[25][1];
-console.log('Jan/Feb 2012 = ' + JanFeb12) // $415,027
+/* var JanFeb12 = finances[24][1] + finances[25][1];
+console.log('Jan/Feb 2012 = ' + JanFeb12) // $415,027 */
 
 var MarApr12 = finances[27][1] - finances[26][1];
 console.log('Mar/Apr 2012 = ' + MarApr12) // $898,730
 
-var NovDec13 = finances[47][1] + finances[46][1];
-console.log('Nov/Dec 2013 = ' + NovDec13) // $462,475
+/* var NovDec13 = finances[47][1] + finances[46][1];
+console.log('Nov/Dec 2013 = ' + NovDec13) // $462,475 */ 
 
-var AprMay15 = finances[64][1] + finances[63][1];
-console.log('Apr/May 2015 = ' + AprMay15) // $366,006
+/* var AprMay15 = finances[64][1] + finances[63][1];
+console.log('Apr/May 2015 = ' + AprMay15) // $366,006 */
 
-var OctNov16 = finances[82][1] - finances[81][1];
-console.log('Oct/Nov 2016  = ' + OctNov16) // $693,229
+/* var OctNov16 = finances[82][1] - finances[81][1];
+console.log('Oct/Nov 2016  = ' + OctNov16) // $693,229 */
 
-var JanFeb17 = finances[85][1] - finances[84][1];
-console.log('Jan/Feb 2017  = ' + JanFeb17) // $532,869
+/* var JanFeb17 = finances[85][1] - finances[84][1];
+console.log('Jan/Feb 2017  = ' + JanFeb17) // $532,869 */
 
 var totalProfit = MarApr12 
 console.log("March/April 2012 = " + "$" + MarApr12 + " making it the most profitable month for the company!")
