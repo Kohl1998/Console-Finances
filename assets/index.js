@@ -6,14 +6,14 @@ var finances = [
 ['May-2010', 310503], // [4][1] 
 ['Jun-2010', 522857], // [5][1]
 ['Jul-2010', 1033096], //[6][1]
-['Aug-2010', 604885],
-['Sep-2010', -216386],
+['Aug-2010', 604885], // [7][1]
+['Sep-2010', -216386], // [8][1]
 ['Oct-2010', 477532],
-['Nov-2010', 893810],
+['Nov-2010', 893810], // [10][1]
 ['Dec-2010', -80353], // [11][1]
 ['Jan-2011', 779806], // [12][1]
-['Feb-2011', -335203],
-['Mar-2011', 697845],
+['Feb-2011', -335203], // [13][1]
+['Mar-2011', 697845], 
 ['Apr-2011', 793163],
 ['May-2011', 485070],
 ['Jun-2011', 584122],
@@ -154,6 +154,15 @@ var totalProfit = MarApr12
 console.log("March/April 2012 = " + "$" + MarApr12 + " making it the most profitable month for the company!")
 
 // Greatest decrease in losses with date & amount
+
+var SepAug10 = finances[8][1] - finances[7][1]
+console.log('Sept/Aug 2010 = ' + SepAug10) // $-821,271 
+
+var NovDec10 = finances[11][1] - finances[10][1]
+console.log('Nov/Dec 2010 = ' + NovDec10) // $-974,163 
+
+var JanFeb11 = finances[13][1] - finances[12][1]
+console.log('Jan/Feb 2010 = ' + JanFeb11) // $-1115009
 
 /*  ```text
   Financial Analysis
