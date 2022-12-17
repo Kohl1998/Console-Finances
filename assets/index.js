@@ -15,22 +15,22 @@ var finances = [
 ['Feb-2011', -335203], // [13][1]
 ['Mar-2011', 697845], 
 ['Apr-2011', 793163],
-['May-2011', 485070],
-['Jun-2011', 584122],
+['May-2011', 485070], 
+['Jun-2011', 584122], // [17][1]
 ['Jul-2011', 62729], // [18][1]
 ['Aug-2011', 668179], // [19][1]
 ['Sep-2011', 899906],
-['Oct-2011', 834719],
-['Nov-2011', 132003],
-['Dec-2011', 309978],
+['Oct-2011', 834719], // [21][1]
+['Nov-2011', 132003], // [22][1]
+['Dec-2011', 309978], // [23][1]
 ['Jan-2012', -755566], // [24][1]
 ['Feb-2012', 1170593], // [25][1]
 ['Mar-2012', 252788], // [26][1]
 ['Apr-2012', 1151518], // [27][1]
 ['May-2012', 817256],
 ['Jun-2012', 570757],
-['Jul-2012', 506702],
-['Aug-2012', -1022534],
+['Jul-2012', 506702], // [30][1]
+['Aug-2012', -1022534], // [31][1]
 ['Sep-2012', 475062],
 ['Oct-2012', 779976],
 ['Nov-2012', 144175],
@@ -42,9 +42,9 @@ var finances = [
 ['May-2013', 565603],
 ['Jun-2013', 872480],
 ['Jul-2013', 789480],
-['Aug-2013', 999942],
-['Sep-2013', -1196225],
-['Oct-2013', 268997],
+['Aug-2013', 999942], // [43][1]
+['Sep-2013', -1196225], // [44][1]
+['Oct-2013', 268997], // [45][1]
 ['Nov-2013', -687986], // [46][1]
 ['Dec-2013', 1150461],  // [47][1]
 ['Jan-2014', 682458],
@@ -61,7 +61,7 @@ var finances = [
 ['Dec-2014', 988505],
 ['Jan-2015', 1139715],
 ['Feb-2015', 1029471],
-['Mar-2015', 687533],
+['Mar-2015', 687533], // [62][1]
 ['Apr-2015', -524626], // [63][1]
 ['May-2015', 158620], // [64][1]
 ['Jun-2015', 87795],
@@ -71,18 +71,18 @@ var finances = [
 ['Oct-2015', 332067],
 ['Nov-2015', 989499],
 ['Dec-2015', 778237],
-['Jan-2016', 650000],
-['Feb-2016', -1100387],
+['Jan-2016', 650000], // [72][1]
+['Feb-2016', -1100387], // [73][1]
 ['Mar-2016', -174946],
 ['Apr-2016', 757143],
 ['May-2016', 445709],
-['Jun-2016', 712961],
-['Jul-2016', -1163797],
+['Jun-2016', 712961], // [77][1]
+['Jul-2016', -1163797], // [78][1]
 ['Aug-2016', 569899],
 ['Sep-2016', 768450],
 ['Oct-2016', 102685], // [81][1]
 ['Nov-2016', 795914], // [82][1]
-['Dec-2016', 60988],
+['Dec-2016', 60988], // [83][1]
 ['Jan-2017', 138230], // [84][1]
 ['Feb-2017', 671099] // [85][1]
 ];
@@ -135,9 +135,6 @@ console.log('JulAug 2011 = ' + JulAug11) // $605,450 */
 /* var JanFeb12 = finances[24][1] + finances[25][1];
 console.log('Jan/Feb 2012 = ' + JanFeb12) // $415,027 */
 
-var MarApr12 = finances[27][1] - finances[26][1];
-console.log('Mar/Apr 2012 = ' + MarApr12) // $898,730
-
 /* var NovDec13 = finances[47][1] + finances[46][1];
 console.log('Nov/Dec 2013 = ' + NovDec13) // $462,475 */ 
 
@@ -150,19 +147,58 @@ console.log('Oct/Nov 2016  = ' + OctNov16) // $693,229 */
 /* var JanFeb17 = finances[85][1] - finances[84][1];
 console.log('Jan/Feb 2017  = ' + JanFeb17) // $532,869 */
 
+var MarApr12 = finances[27][1] - finances[26][1];
+console.log('Mar/Apr 2012 = ' + MarApr12) // $898,730
+
 var totalProfit = MarApr12 
 console.log("March/April 2012 = " + "$" + MarApr12 + " making it the most profitable month for the company!")
 
 // Greatest decrease in losses with date & amount
 
-var SepAug10 = finances[8][1] - finances[7][1]
+/* var SepAug10 = finances[8][1] - finances[7][1]
 console.log('Sept/Aug 2010 = ' + SepAug10) // $-821,271 
 
 var NovDec10 = finances[11][1] - finances[10][1]
 console.log('Nov/Dec 2010 = ' + NovDec10) // $-974,163 
 
 var JanFeb11 = finances[13][1] - finances[12][1]
-console.log('Jan/Feb 2010 = ' + JanFeb11) // $-1115009
+console.log('Jan/Feb 2011 = ' + JanFeb11) // $-1,115,009
+
+var JunJul11 = finances[18][1] - finances[17][1]
+console.log('Jun/Jul 2011 = ' + JunJul11) // $-521,393
+
+var OctNov11 = finances[22][1] - finances[21][1]
+console.log('Oct/Nov 2011 = ' + OctNov11) // $-702,716
+
+var DecJan12 = finances[24][1] - finances[23][1]
+console.log('Dec/Jan 11/12 = ' + DecJan12) // $-1,065544
+
+var FebMar12 = finances[26][1] - finances[25][1]
+console.log('Feb/Mar 2012 = ' + FebMar12) // $-917805
+
+var JulAug12 = finances[31][1] - finances[30][1]
+console.log('Jul/Aug 2012 = ' + JulAug12) // $-1,529,236 */
+
+/* var OctNov13 = finances[46][1] - finances[45][1]
+console.log('Oct/Nov 2013 = ' + OctNov13) // $-956,983
+
+var MarApr15 = finances[63][1] - finances[62][1]
+console.log('Mar/Apr 2015 = ' + MarApr15) // $-1,212,159
+
+var JanFeb16 = finances[73][1] - finances[72][1]
+console.log('Jan/Feb 2016 = ' + JanFeb16) // $-1,750,387
+
+var JunJul16 = finances[78][1] - finances[77][1]
+console.log('Jun/Jul 2016 = ' + JunJul16) // $-1,876,758
+
+var NovDec16 = finances[83][1] - finances[82][1]
+console.log('Nov/Dec 2016 = ' + NovDec16) // $-734,926 */ 
+
+var AugSep13 = finances[44][1] - finances[43][1]
+console.log('Aug/Sept 2013 = ' + AugSep13) // $-2,196,167
+
+var totalloss = AugSep13
+console.log("August/September 2013 = " + "$" + AugSep13 + " making it the worse month for the company!")
 
 /*  ```text
   Financial Analysis
