@@ -110,13 +110,13 @@ for (var i = 0; i < finances.length; i++) {
   sum += finances[0][1]
 }  
 
-console.log("The total sum is " + sum)
+console.log("The total sum is " + "$" + sum)
 
 
 // Average change over time 
 
 var average = total/totalmonths 
-console.log("The average is " + average)
+console.log("The average in dollars is " + average)
 
 // Greatest increase in profits with date & amount
 
