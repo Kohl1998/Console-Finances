@@ -210,6 +210,8 @@ console.log("August/September 2013 = " + "$" + AugSep13 + " making it the worse 
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ``` */ 
 
+console.log("Financial analysis" + '\n' + "Total Months: " + totalmonths + '\n' + "Total: " + "$" + total + "\n" + "Average change: " + "$" + average + "\n" + "Greatest increase in profits: April-2012 " + "$"+ MarApr12 + "\n" + "Greatest decrease in profits: Sept-2013 " + "$" + totalloss)
+
   // Use concatenation when console logging info
 
   // Print to the nearest 100th 
