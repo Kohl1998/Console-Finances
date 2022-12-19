@@ -210,7 +210,11 @@ console.log("August/September 2013 = " + "$" + AugSep13 + " making it the worse 
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ``` */ 
 
-console.log("Financial analysis" + '\n' + "Total Months: " + totalmonths + '\n' + "Total: " + "$" + total + "\n" + "Average change: " + "$" + average + "\n" + "Greatest increase in profits: April-2012 " + "$"+ MarApr12 + "\n" + "Greatest decrease in profits: Sept-2013 " + "$" + totalloss)
+function rounduptothenearest100 (num) {
+  return Math.ceil(num / 100) * 100 
+} // To round number to nearest 100th 
+
+console.log("Financial analysis" + '\n' + "Total Months: " + totalmonths + '\n' + "Total: " + "$" + total + "\n" + "Average change: " + "$" + rounduptothenearest100(average) + "\n" + "Greatest increase in profits: April-2012 " + "$"+ rounduptothenearest100(MarApr12) + "\n" + "Greatest decrease in profits: Sept-2013 " + "$" + rounduptothenearest100(totalloss))
 
   // Use concatenation when console logging info
 
