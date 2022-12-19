@@ -21,7 +21,7 @@ Lastly, once I was done I pushed all the updates to my remote repository from my
 ## Usage
 
 ```md
-    ![alt text](images/bootstrap page 1.png)
+    ![alt text](assets/images/console finance deployment.png)
     ```
 
 ## Credits
@@ -44,5 +44,5 @@ Click this option and then look at the top of the HTML file, and you will see a 
 
 ## Link
 
-https://kohl1998.github.io/bootstrap-portfolio/
+https://kohl1998.github.io/Console-Finances/
 
